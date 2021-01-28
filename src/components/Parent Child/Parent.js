@@ -24,4 +24,9 @@ New State  same as Old State  after inital render ? Both parent and child compon
 
 New State same as Old state after re-render ? Parent component will render one more time but child never re-renders
 
+
+DOM represented by Child component is never updated
+Child component went through the rendering phase, but discarted during diff
+so not went through commit phase
+this is known as "Unnecessary render"
 */
