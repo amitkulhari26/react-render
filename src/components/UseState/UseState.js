@@ -18,7 +18,7 @@ export default UseState
 /*
 Important Note:
 1> The setter fn or dispatch function will cause the component to re-render
-2> The exception is when you update save value with the current value
+2> The exception is when you update same value with the current value
 3> Same value  after the initial render ? The component will not re-render
 4> Same value after re-renders ? React will render that specific component
 one more time and bails out from any subsequent renders.
