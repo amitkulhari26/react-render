@@ -6,7 +6,7 @@ const initialState = {
 }
 
 const ObjectUseState = () => {
-    console.log(`ObjectUseState Component Rendering ...`)
+    console.log(`ObjectUseState Component Render`)
     const [state, setState] = useState(initialState)
     const handlNameChange = () => {
         // muating orignal object

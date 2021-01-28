@@ -12,7 +12,7 @@ const reducer = (state, action) => {
 }
 
 const UseReducer = () => {
-    console.log('UseReducer Component Rendering ...')
+    console.log('UseReducer Component Render')
     const [count, dispatch] = useReducer(reducer, initialCount)
     return (
         <div>

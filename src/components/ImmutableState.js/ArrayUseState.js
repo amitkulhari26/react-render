@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 const initialState = ['Batman', 'Superman']
 const ArrayUseState = () => {
-    console.log('ArrayUseState Component Rendering ...')
+    console.log('ArrayUseState Component Render')
     const [state, setState] = useState(initialState)
     const addNamehandler = () => {
         // mutating orignal array

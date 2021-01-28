@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 const UseState = () => {
     const [count, setCount] = useState(0)
-    console.log('UseState Component Rendering ...')
+    console.log('UseState Component Render')
     return (
         <div>
             <h2>{count}</h2>
