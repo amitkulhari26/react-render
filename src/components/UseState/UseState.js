@@ -17,12 +17,11 @@ export default UseState
 
 /*
 Important Note:
-1> After Initail Render if we call the setter fn of useState or
-dispatch fn of useReducer and set the save value, component will
-be bailed out
-2> After one or many re-render if we call the setter fn of useState or
-dispatch fn of useReducer and set the save value, component will
-be re-rendred once and after that it will be bailed out
+1> The setter fn or dispatch function will cause the component to re-render
+2> The exception is when you update save value with the current value
+3> Same value  after the initial render ? The component will not re-render
+4> Same value after re-renders ? React will render that specific component
+one more time and bails out from any subsequent renders.
 
 */
 
