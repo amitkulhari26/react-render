@@ -1,9 +1,9 @@
 import './App.css';
-import ArrayUseState from './components/ImmutableState.js/ArrayUseState';
-import ObjectUseState from './components/ImmutableState.js/ObjectUseState';
+// import ArrayUseState from './components/ImmutableState.js/ArrayUseState';
+// import ObjectUseState from './components/ImmutableState.js/ObjectUseState';
+// import UseReducer from './components/Usereducer/UseReducer';
+// import UseState from './components/UseState/UseState';
 import Parent from './components/Parent Child/Parent';
-import UseReducer from './components/Usereducer/UseReducer';
-import UseState from './components/UseState/UseState';
 
 function App() {
   return (
